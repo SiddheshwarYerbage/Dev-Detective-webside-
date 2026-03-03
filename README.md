@@ -10,13 +10,28 @@
  - Use `Insert sample` to load a small example.
 
  All checks run in the browser; no backend required.
-
- ## Files
-
- - `index.html` – site markup
- - `style.css` – site styles
- - `script.js` – client-side inspector logic
+dev-detective/
+│
+├── index.html      # Main structure
+├── style.css       # Styling
+├── script.js       # API & logic
+└── README.md       # Documentation
 
  ## Notes
 
  This is a lightweight developer tool intended as a starting point. If you want additional detectors (security, regex smells, lint-style rules), I can add them and include a small test harness.
+🚀 Features
+🔍 Search any GitHub username
+👤 View profile picture and bio
+📊 Display repositories, followers & following
+🌐 Direct link to GitHub profile
+📱 Fully responsive design
+⚡ Real-time data using GitHub API
+
+
+👨‍💻 Author
+
+Siddheshwar Yerbage
+Full Stack Developer (MERN Stack)
+📧 your-sidhuyerbage@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/siddheshwar-yerbage-77
