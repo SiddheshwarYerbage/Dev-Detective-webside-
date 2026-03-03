@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Dev Detective</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-row">
+			<h1 class="logo">Dev Detective</h1>
+			<p class="tag">Spot issues. Ship faster.</p>
+		</div>
+	</header>
+
+	<main class="container">
+		<section class="hero">
+			<h2>Find issues in code instantly</h2>
+			<p class="lead">Paste a snippet and let Dev Detective highlight TODOs, FIXMEs, console.logs and provide quick recommendations.</p>
+		</section>
+
+		<section class="inspector">
+			<div class="pane left">
+				<label for="code-input">Paste code</label>
+				<textarea id="code-input" placeholder="// Paste code here (JavaScript, HTML, CSS, etc.)"></textarea>
+				<div class="controls">
+					<button id="sample-btn">Insert sample</button>
+					<button id="detect-btn" class="primary">Detect</button>
+					<button id="clear-btn">Clear</button>
+				</div>
+			</div>
+
+			<div class="pane right">
+				<h3>Results</h3>
+				<div id="results" class="results">No analysis yet.</div>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="card"><h4>Quick checks</h4><p>Detects TODO/FIXME, stray console.log, long lines, trailing whitespace and simple language hints.</p></div>
+			<div class="card"><h4>Runs locally</h4><p>All checks run in your browser — no network required.</p></div>
+			<div class="card"><h4>Copy & Share</h4><p>Copy results or the analyzed snippet for quick sharing.</p></div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">Built with ❤️ by Dev Detective</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
